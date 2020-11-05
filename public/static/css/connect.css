@@ -1,0 +1,101 @@
+body {
+	background-image: url("/static/images/snowback.png");
+	width: 100vw;
+	height: 100vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+body img {
+	display: block;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+.mtop16 {
+	margin-top: 16px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.box {
+	width: 330px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+
+.box .btn-success {
+	background-color: #0e00c2;
+	border: 0px;
+	width: 100%;
+}
+
+.box .form-control:focus,
+.box .form-control:active {
+	outline: none;
+	box-shadow: none;
+}
+
+.box .box-login {
+	background-color: #fff;
+	border-radius: 8px;
+	border: 1px solid #d6d6d6;
+	width: 100%;
+	height: 100%;
+}
+
+.box .box-login .header {
+	background-color: #fff;
+	border-radius: 8px 8px 8px 8px;
+	height: 22%;
+	padding: 10%;
+}
+
+.box .box-login .header a img {
+	display: block;
+	margin: 0 auto;
+	width: 20%;
+}
+
+.box .inside {
+	padding: 3%;
+}
+
+.box .header {
+	background-color: #1F32E7;
+	border-radius: 8px 8px 8px 8px;
+	padding: 5px;
+}
+
+.box .header a img {
+	display: block;
+	margin: 0px auto;
+	width: 20%;
+}
+
+.box .footer {
+	text-align: center;
+	display: block;
+}
+
+.box .footer a {
+	display: inline-block;
+	font-size: 0.8em;
+}
+
+.box .footer a:last-child {
+	margin-left: 0px;
+}
+
+.box_login {
+	left: calc(50% - 200px);
+	top: calc(50% - 196px);
+}
+
+.box_register {
+	left: calc(50% - 200px);
+	top: calc(50% - 323px);
+}
